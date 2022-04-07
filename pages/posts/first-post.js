@@ -20,9 +20,15 @@ export default function FirstPost() {
       />
       <h1>First Post</h1>
       <h2>
+        <ul>
         <Link href="/">
-            <a>Back to home</a>
+        <a>
+            <li>
+              Back to home
+            </li>
+        </a>
         </Link>
+        </ul>
       </h2>
     </Layout>
   )
